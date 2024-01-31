@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: gray;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffd700;
+}
+
+footer {
+  background-color: gray;
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+
+.mySectionClass {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: palevioletred;
+  position: relative;
+  text-align: center;
+}
+
+.mySectionClass {
+  text-align: center; 
+}
+
+.mySectionClass img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mySectionClass h2 {
+  color: black;
+}
+
+.mySectionClass p {
+  color: black;
+}
+
+.mySectionClass a {
+  color: #0066cc; 
+}
+
+.myContentClass {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: lavender;
+}
+
+.myContentClass img {
+  max-width: 100%;
+  height: auto;
+}
+
+.myContentClass h2 {
+  color: black;
+}
+
+.myContentClass p {
+  color: black;
+}
+
+.myContentClass a {
+  color: #0066cc; 
+}
+.customPaddingClass {
+  padding: 10px;
+}
+
+.mySectionClass a,
+.myContentClass a {
+  text-decoration: none;
+}
+
+.mySectionClass a:hover,
+.myContentClass a:hover {
+  text-decoration: underline; 
+  color: #ff9900; 
+}
+
+.mySectionClass h1 {
+  font-family: 'Dancing Script', cursive;
+  color: wheat;
+  font-size: 60px; /* Replace with your preferred font size */
+}
+
+.mySectionClass h2 {
+  font-family: 'Dancing Script', cursive;
+  color: wheat;
+  font-size: 40px; /* Replace with your preferred font size */
+}
+
+.myContentClass h2 {
+  font-family: 'Lobster', sans-serif; 
+  font-style: normal; 
+  color: darkblue
+}
+
+.myContentClass h3 {
+  font-family: 'Lobster', sans-serif; 
+  font-style: normal; 
+}
+
+.myContentClass hr {
+  height: 5px; 
+  border: none; 
+  background: linear-gradient(to right, #333, #fff, #333); 
+  margin: 20px 0; 
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.card-section {
+  flex: 1;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  color: #333;
+}
+
+.card ul,
+.card dl {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.card li,
+.card dd {
+  color: #666;
+}
+
+.card p {
+  margin: 0;
+}
+
+.three-col-container {
+  display: flex;
+  justify-content: space-between; /* Adjust the spacing between cards */
+  gap: 20px; 
+}
+
+.three-col {
+  display: flex;
+}
+
+.three-col .card {
+  flex: 1;
+  width: 300px; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin: 0;
+}
+
+.three-col .card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.three-col .card h3 {
+  color: black;
+}
+
+.three-col .card ul,
+.three-col .card dl {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.three-col .card li,
+.three-col .card dd {
+  color: black;
+}
+
+.three-col .card p {
+  margin: 0;
+}
+
+.one-col {
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactSection,
+.messageSection {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  position: relative;
+  text-align: center;
+}
+
+hr {
+  height: 5px; 
+  border: none; 
+  background: linear-gradient(to right, #333, #fff, #333); 
+  margin: 20px 0; 
+}
+
+.contactSection {
+  font-family: 'Dancing Script';
+  background-color: palevioletred; 
+}
+
+.messageSection {
+  background-color: lavender; /
+}
+
+.contactSection h1 {
+  font-family: 'Dancing Script', cursive;
+  color: wheat;
+  font-size: 40px; /* Replace with your preferred font size */
+}
+.contactSection p {
+  font-size: 20px;
+}
+
+
